@@ -1,19 +1,21 @@
 Steps to Run Maven Project:
+1. Clone the maven project to your system and make note of project location
+2. Launch Command Line
+3. Change directory of cmd to project location [cd {projectLocation}]
+4. Run -- mvn test
 
-Clone the maven project to your system and make note of project location
-Launch Command Line
-Change directory of cmd to project location [cd {projectLocation}]
-Run -- mvn test
 Find the reports here:
+> Navigate to project location->test-output folder based on Timestamp
 
-Navigate to project location->test-output folder based on Timestamp
 Questions
 
-What other tests would you suggest could be written? You do not need to write them out in detail or code them.
-We can do Boundary Values Analysis Testing. We can check Required fields for Example - As Living Expenses field is required, it prompts as Required when clicked on "Work out how much I could borrow button" button
+1. What other tests would you suggest could be written? You do not need to write them out in detail or code them.
+> We can do Boundary Values Analysis Testing. 
+> We can check Required fields for Example - As Living Expenses field is required, it prompts as Required when clicked on "Work out how much I could borrow button" button
 
-If this test was part of a much larger test set, how would you speed it up?
-By using Cucumber tags we can filter out and execute specific tests out of large test suite Risk Based testing
+2. If this test was part of a much larger test set, how would you speed it up?
+> By using Cucumber tags we can filter out and execute specific tests out of large test suite 
+> Risk Based testing
 
-Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on a webpage. How would you improve reliability of these tests?
-We can keep Explicit Wait or Fluent Wait
+3. Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on a webpage. How would you improve reliability of these tests?
+> We can keep Explicit Wait or Fluent Wait
